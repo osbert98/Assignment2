@@ -47,6 +47,24 @@ public class california extends parentclass {
 	        }
 	    
 		}   
+	    
+	    class pricepackage extends pack{ 
+
+	    	String med = "Most affordable";
+			public void display() {
+				System.out.println("The package you have choosen is : " +med);
+			}
+	    
+	
+	    	
+			public void printPack() {
+				
+			pricepackage p = new pricepackage();
+		
+			p.display();
+			
+	    }
+	    }
 }
 	    
 	    

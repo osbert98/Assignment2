@@ -14,12 +14,16 @@ public class travelAgent extends parentclass {
 		california c = new california();
 		
 		
+		
 		c.checkPromo();
 		c.printPlace();
 		c.printSeason();
 		c.setPrice("RM3000");
 		c.date();
 		c.printTrans();
+		
+		
+		
 		
 		
 		System.out.println("The price for the promo is "+c.getPrice());
@@ -31,6 +35,8 @@ public class travelAgent extends parentclass {
 		j.printAvailable("July 2021");
 		j.setPrice("RM4500");
 		j.printTrans();
+		
+		
 		
 		System.out.println("The available date for booking is: "+j.getAvailable());
 		System.out.println("The price for the promo is "+j.getPrice());

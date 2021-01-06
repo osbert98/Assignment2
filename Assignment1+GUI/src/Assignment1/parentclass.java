@@ -2,16 +2,7 @@ package Assignment1;
 
 
 
-class dateavailable{
-	String July="The promotion is starting in July";
-	String April="The promotion is starting in May";
-	String May="The promotion is April";
-	
-	public void price() {
-		
-		System.out.println("The most luxorious Travelling Package");
-	}
-}
+
 
 
 public class parentclass {
@@ -35,7 +26,12 @@ public class parentclass {
 		
 
 }
-		
+		class pack{
+			String high="Most luxurious";
+			String low="Cheap";
+			
+		}
+	
 }
 
 

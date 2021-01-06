@@ -2,6 +2,8 @@ package Assignment1;
 
 import java.util.Scanner;
 
+
+
 public class japan extends parentclass {
 	
 	
@@ -50,10 +52,25 @@ public class japan extends parentclass {
 	        } catch(Exception e){
 	            System.out.println("Something went wrong! place is not available");
 	        }
+	    
+	    
+	    class pricepackage extends pack{ 
+
+			public void display() {
+				System.out.println("The package you have choosen is : " +high);
+			}
+	    
+	
+	    	
+			public void PrintDisplay() {
+				
+			pricepackage p = new pricepackage();
+			p.display();
 	    }
-	    
-	    
-	    
+			
+			
+	    }
+	    }
 }
 	
 
