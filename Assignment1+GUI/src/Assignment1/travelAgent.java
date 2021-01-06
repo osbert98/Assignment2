@@ -26,6 +26,7 @@ public class travelAgent extends parentclass {
 		
 		
 		
+		
 		System.out.println("The price for the promo is "+c.getPrice());
 
 
