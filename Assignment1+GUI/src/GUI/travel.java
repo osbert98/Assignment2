@@ -277,7 +277,7 @@ public class travel extends JFrame {
 			new Object[][] {
 			},
 			new String[] {
-				"Reference no", "Firstname", "Lastname", "Salary", "Address", "Post Code", "Choosen Car"
+				"Reference no", "Firstname", "Lastname", "Address", "Date Package", "Person/Pax", "Choosen Package"
 			}
 		));
 		scrollPane.setViewportView(table);

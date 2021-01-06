@@ -1,40 +1,43 @@
 package Assignment1;
 
-public class california {
 
-	 	String placename,	season;
+
+	public class california extends parentclass {
+		
+	    String placename,season,date;
 	    String price;
-	    private String available;
+	 
 	    
 	    california(){
 	        this.placename="California";
-	        this.season="Spring";
-	     
+	        this.season="Summer";
+	        this.date="Available in July";
 	    }
-	 
 	    public void printPlace(){
-	        promopackage a = new promopackage();
-	        System.out.println();
-	        System.out.println("Amazing place we have in promo: "+a.placename);
+	        california c=new california();
+	        System.out.println("Place we have in promo: "+c.placename);
 	    }
 	    public void printSeason(){
-	    	promopackage a = new promopackage();
-	        System.out.println("Season of the month is : "+a.season);
+	        california c1=new california();
+	        System.out.println("The season for places is : "+c1.season);
 	    }
-
+	    public void date(){
+	        california c2=new california();
+	        System.out.println("Date availability: "+c2.date);
+	    }
 	    
-	    public void printAvailable(String date){
-	        available=date;
-	    }
-	    public String getAvailable(){
-	        return available;
-	    }
-	    public void setPrice(String newPrice){
-	        price=newPrice;
+	    public void setPrice(String myprice){
+	        price=myprice;
 	    }
 	    public String getPrice(){
 	        return price;
 	    }
-	}
+	
+		}   
+	    
+	    
+	    
 
-
+	    
+	    
+	
