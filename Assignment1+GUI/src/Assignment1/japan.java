@@ -1,6 +1,6 @@
 package Assignment1;
 
-
+import java.util.Scanner;
 
 public class japan extends parentclass {
 	
@@ -40,6 +40,20 @@ public class japan extends parentclass {
 	    public String getPrice(){
 	        return price;
 	    }
-	}
+	    public void checkPromo(){
+	        Scanner scan1=new Scanner(System.in);
+	        try{
+	            System.out.println("Type to check Promo place availability: ");
+	            String place=scan1.next();
+	            System.out.println("Choosen promo places: "+place);
+	            System.out.println("");
+	        } catch(Exception e){
+	            System.out.println("Something went wrong! place is not available");
+	        }
+	    }
+	    
+	    
+	    
+}
 	
 

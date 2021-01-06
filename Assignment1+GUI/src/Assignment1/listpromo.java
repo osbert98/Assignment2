@@ -1,16 +1,12 @@
 package Assignment1;
 
-public class listpromo {
 
-	abstract class listPromo {
-	    abstract void places();
-	    
-	}
-	class absplaces extends listpromo{
-	    
-		void typeplaces(){
-	        System.out.println("Places in promo: "+"\n1.Japan"+"\n2.California");
-	    }    
-	}
-	
+abstract class listpromo {
+    abstract void places();
+    
+}
+class listofpromo extends listpromo{
+    void places(){
+        System.out.println("Type of places you can choose: "+"\n1.California"+"\n2.Japan");
+    }    
 }

@@ -4,7 +4,7 @@ package Assignment1;
 
 class dateavailable{
 	String July="The promotion is starting in July";
-	String April="The promotion isis starting in May";
+	String April="The promotion is starting in May";
 	String May="The promotion is April";
 	
 	public void price() {
