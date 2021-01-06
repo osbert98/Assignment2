@@ -62,7 +62,7 @@ public class japan extends parentclass {
 	    
 	
 	    	
-			public void PrintDisplay() {
+			public void printPack() {
 				
 			pricepackage p = new pricepackage();
 			p.display();
